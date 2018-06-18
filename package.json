@@ -1,7 +1,7 @@
 {
   "name": "ra-homeworks",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Блок 1. JSX 1.1. [JSX](./jsx/)   1.2. [Функциональный компонент](./func-component/)   1.3. [События](./events/)",
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
