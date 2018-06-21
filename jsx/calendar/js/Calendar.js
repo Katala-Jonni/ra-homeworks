@@ -64,7 +64,7 @@ const Calendar = function ({date}) {
     function getNamesDate() {
         const days = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
         const shortDays = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
-        const daysName = days.map((el, idx) => <th scope="col" title={el}>{shortDays[idx]}</th>);
+        const daysName = days.map((el, idx) => <th key={idx} scope="col" title={el}>{shortDays[idx]}</th>);
         return (
             <tr>
                 {daysName}
