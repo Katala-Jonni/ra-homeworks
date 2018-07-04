@@ -8,7 +8,7 @@ class App extends React.Component {
       email: '',
       first_name: '',
       last_name: '',
-      birthday: '',
+      //birthday: '',
       password: '',
       sex: 'муж'
     };
