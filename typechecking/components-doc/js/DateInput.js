@@ -19,13 +19,6 @@ const datePropType = function (props, propName, componentName) {
     return null;
 };
 
-DateInput.propTypes = {
-    value: datePropType,
-    name: PropTypes.string,
-    onChange: PropTypes.func,
-    required: PropTypes.bool
-};
-
 function getDate() {
     const date = new Date();
     const options = {
@@ -35,6 +28,14 @@ function getDate() {
     };
     return date.toLocaleString('Ru-ru', options).split('.').reverse().join('-');
 }
+
+
+DateInput.propTypes = {
+    value: datePropType,
+    name: PropTypes.string,
+    onChange: PropTypes.func,
+    required: PropTypes.bool
+};
 
 DateInput.defaultProps = {
     value: getDate()
