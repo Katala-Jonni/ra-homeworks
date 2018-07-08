@@ -21,13 +21,13 @@ class App extends React.Component {
         super(props);
     }
 
-    renderNav() {
+    renderNav = () => {
         return navLinks.map((item, idx) => <NavLink exact key={idx} to={item.href} activeClassName={'tabs__item-active'} className={'tabs__item'}>{item.title}</NavLink>)
-    }
+    };
 
-    renderRoute() {
+    renderRoute = () => {
         return navLinks.map((item) => <Route exact path={item.href} component={item.component}/>)
-    }
+    };
 
     render() {
         return (
