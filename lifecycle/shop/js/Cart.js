@@ -4,8 +4,6 @@ class Cart extends React.Component {
     }
 
     shouldComponentUpdate({isOpen, items}) {
-        console.log(items.length);
-        console.log(this.props.items.length);
         return isOpen !== this.props.isOpen || isOpen && this.props.length !== items.length;
     }
 
