@@ -13,10 +13,6 @@ class SearchBox extends React.Component {
         this.elementY = document.querySelector('.container input').getBoundingClientRect().top;
     }
 
-    shouldComponentUpdate() {
-        return this.state.fixed;
-    }
-
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
     }
