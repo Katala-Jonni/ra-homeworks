@@ -2,7 +2,7 @@
 
 const YearTable = props => {
 
-    console.log('YearTable', props);
+   // console.log('YearTable', props);
 
     return (
         <div>

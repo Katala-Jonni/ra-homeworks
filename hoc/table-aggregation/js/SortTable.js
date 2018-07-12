@@ -2,7 +2,7 @@
 
 const SortTable = props => {
 
-    console.log('SortTable', props);
+    //console.log('SortTable', props);
 
     return (
         <div>

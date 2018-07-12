@@ -2,7 +2,7 @@
 
 const MonthTable = props => {
 
-    console.log('MonthTable', props);
+   // console.log('MonthTable', props);
 
     return (
         <div>
